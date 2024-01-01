@@ -1,0 +1,341 @@
+% Created 2022-03-06 Sun 15:35
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{svg}
+\usepackage{nicefrac}
+\author{Andreas Munk}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={Andreas Munk},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 28.0.50 (Org mode 9.6)}, 
+ pdflang={English}}
+\usepackage{biblatex}
+\addbibresource{~/.dotfiles/bibtex.bib}
+\begin{document}
+
+\begin{figure}[t]
+\centering
+\includesvg[scale=0.3]{t2k-logo}
+\end{figure}
+
+\section*{The T2K Token}
+\label{sec:orgc938672}
+
+The purpose of this document is to lay down the foundations for a future
+business plan - specifically by defining the revenue stream for Token Toolkit,
+both short and long term. This will make clear what role the T2K token plays in
+our ecosystem.
+
+The mission of Token Toolkit is to be a utility based cryptocurrency company
+that develops valuable products of highest quality for the benefit of our
+customers. As stated in our \href{https://docs.tokentoolkit.io/welcome/what-is-token-toolkit}{whitepaper} we seek to empower our customers with the
+ability engage in the financial market by providing the necessary tools to do so
+well below current market value. Tools otherwise usually locked behind massive
+paywalls or reserved for ``the big boys'' (hedge funds and other big financial
+institutions)\footnote{For more info see our \href{https://tokentoolkit.io/\#}{website} and \href{https://docs.tokentoolkit.io/welcome/what-is-token-toolkit}{whitepaper}}. This leads to Token Toolkit's revenue stream which we
+divide into three substreams:
+
+\begin{enumerate}
+\item A subscription-like approach, involving staking a specific dollar(\$)-value
+amount of our native T2K token in any one of our staking pools. This option
+is our base product and unlocks the option to further. Token Toolkit profit
+from the tokenomcis involved with buying and selling T2K.
+\item Additional pay-per-use using our native T2K token. This grants access to all
+other products not available using (1). \textbf{To use (2) customers must also use
+(1)}. Token Toolkit profit from trading back into the liquidity pool the
+paid T2K.
+\item Pay-per-use of all products using fiat currencies with a 5\% ``fiat fee''.
+\end{enumerate}
+
+T2K, as such, serves as a \emph{proof of purchase}. The value of T2K lies within its
+use to grant access to Token Toolkit's products. The astute reader may realized
+that due to the fixed supply of T2K, it's monetary value will necessarily
+fluctuate in response to supply and demand.
+
+In order to ensure that you, our customer, always get what you pay for, whenever
+you interact with any of our staking pools we take a snapshot. The snapshot
+matches the T2K staked and their values against the dollar(\$) (specifically
+BUSD) required to use our products. This means that once you stake an amount of
+T2K that satisfy the staking requirements at that point in time, you will never
+loose access to those services accompanying the staking pools. This is
+\textbf{regardless} of the price movement of T2K. If, however, any amount of those T2K
+is \textbf{withdrawn} we take a new snapshot and if the price of T2K has moved against
+you, you will loose access to our services and must stake additional T2K to
+regain access.
+
+For instance, say the cost of using Token Toolkits base products is \$250. You
+then buy the equivalent number of T2K (say \(x\)) on January 5th and immediately
+stake those T2K. Token Toolkit takes a snapshot and records that on January 5th
+you staked \(x\) T2K worth \$250 thereby granting you access to the base products.
+Assume then you check up on your staked tokens on February 1st and that in the
+meantime other customers have finished using Token Toolkit and decided to sell
+back their T2K tokens. This cased the T2K value to drop. However, this has \textbf{no}
+effect on your access to Token Toolkit's base products. As long as you never
+unstake and thereby stake at least \(x\) T2K you maintain access to the base
+product (you may, however, stake more T2K should you want to). Only if you
+unstake \emph{any} amount of T2K leaving less than \$250 worth of T2K in the pool do
+you loose access. On the other hand, should the value of T2K increase, you can
+then unstake the surplus T2K (i.e. the number of T2K that is leaves your staked
+amount worth more than \$250) and either sell those for profit or use them for
+other Token Toolkit products.
+
+What we want to emphasize is that T2K is not meant to be a speculative token.
+However, due to its fixed supply there exists speculative opportunities as we
+discuss in Section \hyperref[sec:orgfff7193]{What T2K is Not}. Speculation in the price of T2K due to
+supply and demand comes at a high risk and it is not a game in which Token
+Toolkit participate directly. Token Toolkit's revenue comes from selling our
+services and using T2K as a proof of purchase.
+
+\subsection*{Why Develop Our Own Token}
+\label{sec:org19c6ce3}
+The truth is that most crypto projects do not need a token whatsoever to carry
+out their business. This is not to discount all the advantages the blockchain
+technology brings. Rather it is to remind us that it ought to be absolutely
+clear exactly what purpose any new token serves. While Token Toolkit could, in
+principle, carry out business without T2K, there are two reasons why we decided
+to make T2K,
+
+\begin{enumerate}
+\item It is first and foremost to support and utilize the blockchain technology. It
+enables fast and easy purchasing without involving a third-party participant.
+\item While one option is simply to accept transfers of BUSD it would have required
+a different way of keeping track of who has paid for access to our services.
+Using T2K alleviates the need to pair each customer with a username and
+having them login every time they wish to use our products. By simply staking
+T2K all we need is to connect to your crypto wallet of choice and that's it.
+We need no additional information other than proof that you own sufficient
+T2K - information provided by the blockchain.
+\item Enables a burn mechanism of T2K which will increase the price floor of T2K.
+This ensures that even by returning all T2K to the liquidity pool (every one
+selling) the price of the T2K token would be greater than at launch. For
+details see the [[*Burn
+\end{enumerate}
+Mechanism][Burn Mechanism]] section.
+
+\section*{Pricing and Tokenomics}
+\label{sec:orge58544d}
+
+The price of Token Toolkit's product listed on the on Token Toolkit's \href{https://tokentoolkit.io/\#}{website}
+will always show the BUSD price and the equivalent required T2K needed to
+stake/pay. It is important to note that the listed BUSD/T2K requirement will not
+match the BUSD/T2K price found on e.g. \href{https://pancakeswap.finance/}{pancakeswap} and other exchanges. This is
+due to the tokenomics specified in the \href{https://docs.tokentoolkit.io/welcome/what-is-token-toolkit}{whitepaper} which dictate that of the 5\%
+buy/sell tax 3\% goes towards the liquidity pool and 2\% goes towards Token
+Toolkit. When Token Toolkit price their products the required T2K will take into
+account those tokenomics. To illustrate, assume T2K trades at \(r=0.5
+\nicefrac{BUSD}{T2K}\). Further, assume the staking requirement for Token
+Toolkit's base product is \$250. The number of T2K required would be,
+
+$$
+N_{{\text{T2K}}} = \frac{250~\text{BUSD}}{r} \times c = \frac{250~\text{BUSD}}{0.5~\text{\nicefrac{BUSD}{T2K}}} \times c = 500~\text{T2K} \times c,
+$$
+
+where
+
+$$
+c= 0.95~\text{due to buy tax)}
+$$
+
+Therefore we have,
+
+$$
+N_{{\text{T2K}}} = 475~\text{T2K}
+$$
+
+The price discrepancy between the \(500\) T2K calculated just using the price \(r\)
+and \(N_{\text{T2K}}=475~\text{T2K}\) is to account for the imposed buy tax.
+
+Of the \$250, the profits made by Token Toolkit depends on whether you stake or
+purchase a product using the acquired tokens. In the latter case, Token Toolkit
+profits \(0.97\times \$250 = \$242.5\), where the remaining \$8.5 is the 3\% (buy
+tax) that goes to the liquidity pool. In the former case Token toolkit profits
+immediately \(0.02 \times \$250 = \$5\) (the 2\% buy tax). Once the customer
+sells their tokens at a later time Token Toolkit profits again from the 2\%
+marketing sell tax. Of course the equivalent dollar amount depends on how the
+supply and demand has moved the T2K price.
+
+As a general rule the customer should expect that Token Toolkit calculates the
+price for staking as if the customer sells the required T2K immediately after
+buying - i.e. Token Toolkit assumes the profits equal twice the 2\% tax i.e.
+\(\$250 - \$250 \times 0.98^2 = \$9.9\). In practice this means that Token
+Toolkit profits less if the price of T2K drops between the buy and sell and vice
+versa.
+
+In summary, if the price of a Token Toolkit product is \(p\) and assuming the
+value of T2K stays constant between buy and sell, then Token Toolkit profits,
+
+$$ \text{profit}= \begin{cases} p - p\times0.98^{2} & \text{if staking} \\ p\times0.97 & \text{otherwise} \end{cases}$$
+
+\subsection*{Price Windows}
+\label{sec:org5342354}
+In order to ensure our customers gets a fair chance to buy the necessary T2K,
+Token Toolkit will calculate the required T2K to match the set USD price of all
+products at short random time intervals. This ensures that sudden price movement
+of T2K will not prevent the costumer from carrying out intended purchases. These
+\emph{price windows} are random such as to minimize potential abuse.
+
+
+\section*{What T2K is Not}
+\label{sec:orgfff7193}
+
+Currently, too many projects exists solely for this purpose and hold no inherent
+value. By amassing hopeful investors these projects ultimately rely on buying
+pressure outperforming selling pressure. Eventually early investors cash out,
+taking profit, which in turn leaves others at a loss. These projects boil down
+to a game of money redistribution and the rules for determining the winners and
+the losers are akin to those found in \emph{a game of chicken}. You do not have
+search for long to recognize similarities between such projects and other more
+scrupulous schemes.
+
+T2K is not and should not be considered a speculative asset that falls in the
+category described above. First of all our business model here at Token Toolkit
+does not consider you, the buyer of T2K, an investor. You are our customer and
+we provide you with a service. Our goal is and always will be to provide you
+with products of sublime quality - products we ourselves use here at Token
+Toolkit. However, while T2K serves as our \emph{proof of payment} mechanism, it
+remains amenable to speculation and here is how. Speculation in T2K is analogous
+to buying tickets to e.g. the Superbowl. You could choose to only buy the
+Superbowl tickets you need, but if you expect the overall ticket supply to not
+meet the high demand of the populace, you choose to buy an additional \(x=10\)
+tickets early. If the initial offered tickets subsequently sell out but demand
+remains, you can profit by selling the \(x\) tickets you bought previously. You
+would expect to be able to sell at a price \(p_{\text{higher}}\) above the
+initial market price \(p_{\text{init}}\), and your profits \(y\) would be the
+difference \(y=x(p_{\text{higher}}-p_{\text{init}})\). Assuming
+\(p_{\text{higher}}=\$110 > p_{\text{init}} = \$100\) that results in a net
+profit of \(y=10\times (\$110 -\$100) = \$100\).
+
+This is in fact what happened when Sony released their latest PS5 console. Due
+to high demand and low supply, to buy a PS5 for 2021 Christmas you might have
+had to give up between \$700-\$1000 - way above the \$500 retail price\footnote{\url{https://www.cbsnews.com/essentials/what-people-are-actually-paying-for-ps5s-this-christmas/}}. While
+this may not appear particularly appealing to the general consumer, it is
+nothing but the market forces responding to supply and demand. These mechanisms
+are exactly what provide the speculative opportunities.
+
+It is at your own risk to decide whether or not to partake in this speculative
+game. At any rate, Token Toolkit as a company will never partake in this
+speculative game. Specifically, Token Toolkit, as a company, do not and will
+never own any T2K\footnote{Due to the nature of blockchain technology this cannot be programmatically enforced.}. Nonetheless, full disclaimer, the founders and
+employees of Token Toolkit may receive T2K as part of their salary. This is to
+allow for them to utilize Token Toolkit's products at their discretion.
+
+\section*{Staking Pools and Voting Rights}
+\label{sec:orga8e26a9}
+There will be two different staking pools;
+
+\begin{enumerate}
+\item Liquidity providing staking pool
+\item Utility staking pool without lockup. Staking will only happen if the amount
+of T2K staked matches the BUSD required at the time of staking.
+\end{enumerate}
+
+Both pools give access to Token Toolkit's base products with no difference in price.
+
+\section*{Liquidity Pool Tax and Staking Rewards}
+\label{sec:org132e171}
+
+There are two ways to introduce the 56\% outstanding T2K while keeping the effect
+to the price of T2K at a minimum. (1) Burn them. Otherwise they will serve as a
+sort of ``inflationary'' mechanism (2) Match the LP rewards as valued in BUSD with
+T2K from the outstanding batch. This will effectively double the LP rewards
+while any outstanding T2K remains.
+
+Once all outstanding T2K are circulating the liquidity pool rewards defaults
+back to the standard liquidity pool tax.
+
+\section*{Burn Mechanism and Charity Pledge}
+\label{sec:org459f81a}
+
+As a way to raise the price floor of T2K and thereby indirectly further reward
+the staking pools Token Toolkit pledges to burn 2\% of their net profits in T2K.
+
+Further, while our products here at Token Toolkit's mainly revolve around
+providing tools enabling profiting from engaging in the crypto market, we also
+believe in sharing such profits with those less fortunate. Therefore, T2K pledge
+give away initially 10\% of our net profits to charity.
+
+\section*{NFTs}
+\label{sec:org18771e4}
+
+Token Toolkit will be creating different NFT that functions as fee waivers and
+only a small amount will ever be created and distributed. Depending on the
+particular NFT it can provide the owner free access to either all or a subset of
+Token Toolkit's products.
+
+These NFTs will either be auctioned off or given as part of marketing campaigns.
+
+\section*{Products}
+\label{sec:org4892258}
+
+When customers connect their wallet to use Token Toolkit's products, our dapp
+will execute a transaction process as follows. Prioritize transferring the
+required T2K and in the case there is an insufficient amount of T2K the dapp
+will then transfer the outstanding amount (after transferring T2K) in BUSD. If
+the combined T2K and BUSD is insufficient the transaction will fail.
+
+If a sufficient amount of combined T2K and BUSD is available the customer then
+needs to accept the transaction via their crypto wallet.
+
+\subsection*{Base Products and Utilities}
+\label{sec:org6356dd3}
+
+\begin{itemize}
+\item Sniper bot V1: Executes bulk transactions with a significant chance the
+transaction will fail depending on the target tokens preventative measures.
+\item Sniper bot V2: Implements a queuing system based on a ``first-come-first-serve'' principle.
+\begin{itemize}
+\item Queue placement is available
+\item As a safety measure; if the price of the sniped token increases too much
+from the first transaction in the queue, all subsequent snipes will fail and the customer gets a refund.
+\item Less likely to fail for those in front of the queue
+\end{itemize}
+\item Access to preprocessed and filtered blockchain data which Token Toolkit uses in-house.
+\item Betting games. Betting with or against our price predictions models.
+\end{itemize}
+
+\subsection*{Payed Products}
+\label{sec:org505338b}
+\begin{itemize}
+\item Accounting services: Calculate P/L of our customers for tax purposes
+\item Sniper bot V3: Similar to V2 expect with auctioned queue placements.
+Queue placement is determined by how much is payed in terms of faction of the
+amount sniped up to a maximum of 10\%. Ties are resolved using the first
+come, first serve principle.
+\item Sniper bot V4: Set-and-forget. Functions similar to V3 bus also has built-in
+trading strategies like trailing stop loss, limit orders etc
+\begin{itemize}
+\item Token Toolkit takes 5\% of net profit as a fee. When calculating the 5\% Token
+Toolkit will charge fees after having deducted the amount paid for the
+queuing placement.
+\end{itemize}
+\item Use of price prediction model for manual trading
+\begin{itemize}
+\item Base BUSD price
+\end{itemize}
+\item Asset and investment management using AI/ML.
+\begin{itemize}
+\item Price will be a \% of total profits made.
+\end{itemize}
+\end{itemize}
+
+\subsection*{Other Product Ideas}
+\label{sec:orgbea4273}
+\begin{itemize}
+\item Expanding our tools for the General Stock Market
+\end{itemize}
+\end{document}
